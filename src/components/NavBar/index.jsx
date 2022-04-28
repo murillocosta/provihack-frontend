@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { StyledNavBar, NavBarMenu, NavBarItem, UserMenu } from './styles';
 
 export const NavBar = () => {

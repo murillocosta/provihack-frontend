@@ -1,6 +1,21 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 
 export const StyledNavBar = styled.nav`
+  align-items: center;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 3.125rem;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
+  flex-wrap: no-wrap;
+  overflow: hidden;
+`;
+
+export const ImgPrincipal = styled.nav`
   align-items: center;
   background-color: rgb(53, 53, 53);
   color: white;
