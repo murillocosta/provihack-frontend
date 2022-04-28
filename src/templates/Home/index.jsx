@@ -1,5 +1,12 @@
 import React from 'react';
+import { Main } from '../../components/Main/Main.jsx';
+import { NavBar } from '../../components/NavBar/index.jsx';
 
 export const Home = () => {
-  return <h1>Olá, mundo!</h1>;
+  return (
+    <>
+      <NavBar />
+      <Main />
+    </>
+  );
 };
