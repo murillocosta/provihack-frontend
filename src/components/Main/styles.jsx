@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import img from '../../img/img-principal.jpg';
-import css from '../../../src/index.css';
 
 export const CamadaTransparente = styled.div`
   background: #1a1919;
