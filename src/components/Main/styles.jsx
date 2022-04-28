@@ -1,25 +1,19 @@
 import styled from 'styled-components';
 import img from '../../img/img-principal.jpg';
-import css from '../../../src/index.css';
 
-export const CamadaTransparente = styled.div`
-  background: #1a1919;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.2;
-  position: absolute;
-  z-index: 98;
+export const Img = styled.div`
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('${img}') no-repeat;
 `;
 
-export const Teste = styled.div`
-  background-image: url(${img});
+export const Body = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  opacity: 0.9;
+  align-content: space-between;
+  gap: 10px;
 `;
 
 export const Button = styled.button`
@@ -28,21 +22,52 @@ export const Button = styled.button`
   width: 354px;
   height: 56px;
   font-weight: bold;
-  font-size: Antonio, sans serif;
-  border-radius: 44px;
+  font: 1.2rem;
+  font-family: Antonio, sans serif;
+  border-radius: 2.7rem;
   color: white;
+
+  @media (max-width: 830px) {
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 250px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
 `;
 
 export const BemVindo = styled.h1`
-  color: white;
-  text-shadow: 0px -1px 1px rgb(0 0 0 / 48%);
+  color: #ffebb8;
+  text-shadow: 2px 1px 0px rgb(0 0 0 / 13%);
   font-family: Antonio, sans-serif;
   font-weight: bold;
-  font-size: 32;
+  font-size: 2rem;
+
+  @media (max-width: 830px) {
+    font-size: 1.7rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1.4rem;
+  }
 `;
 
 export const TxtConsumo = styled.h2`
-  color: white;
-  font-size: 42;
+  color: #ffffff;
+  font-size: 4.5rem;
+  text-shadow: 2px 1px 0px rgb(0 0 0 / 16%);
   font-family: Alata, sans serif;
+  text-align: center;
+
+  @media (max-width: 830px) {
+    font-size: 3.5rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 3rem;
+  }
 `;

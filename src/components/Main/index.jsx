@@ -1,19 +1,20 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { Teste, Button, BemVindo, TxtConsumo, CamadaTransparente } from './styles';
+import { Img, Body, Button, BemVindo, TxtConsumo } from './styles';
 
 export const Main = () => {
   return (
     <>
-    <CamadaTransparente>
-    <Teste>
+    <Img>
+    <Body>
         <BemVindo>BEM-VINDO AO ECO PARTILHAR!</BemVindo>
-        <TxtConsumo>Promovendo o consumo  sustentável</TxtConsumo>
+        <TxtConsumo>Promovendo o consumo <br /> sustentável</TxtConsumo>
         <Button>
           Saiba mais sobre essa iniciativa
         </Button>
-      </Teste>
-    </CamadaTransparente>
+      </Body>
+    </Img>
+
     </>
   );
 };

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { NavBar, Logo } from './styles';
 import { Burger } from './Burger';
 

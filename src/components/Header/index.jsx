@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Nav } from '../Nav';
 
 export const Header = () => {
