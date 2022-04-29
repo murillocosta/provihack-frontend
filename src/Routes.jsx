@@ -9,8 +9,8 @@ import { Login } from './pages/Login'
 export default () => {
   return (
     <Routes>
-      <Route exact path="/inicio" element={<Main />}/>
-      
+      <Route exact path="/" element={<Main />}/>
+
       <Route exact path="/sobrenos">
           sobrenos
       </Route>
@@ -19,9 +19,9 @@ export default () => {
           iniciativas
       </Route>
 
-      <Route exact path="/info">
+      {/* <Route exact path="#info">
           info
-      </Route>
+      </Route> */}
 
       <Route exact path="/contato">
           contato

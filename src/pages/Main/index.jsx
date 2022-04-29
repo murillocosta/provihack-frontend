@@ -15,7 +15,7 @@ export const Main = () => {
       </Container>
     </ImgMain>
 
-    <Container2>
+    <Container2 id={'texto2'}>
     <ImgRecycled />
     <div>
       <h1>Você sabe como sua roupa é feita?</h1>

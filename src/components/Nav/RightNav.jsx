@@ -11,7 +11,7 @@ export const RightNav = ({ open }) => {
     <>
       <NavBarMenu open={open}>
         <NavBarItem>
-          <Link to="/inicio">Início</Link>
+          <Link to="/">Início</Link>
         </NavBarItem>
         <NavBarItem>
           <Link to="/sobrenos">Sobre nós</Link>
@@ -20,7 +20,7 @@ export const RightNav = ({ open }) => {
           <Link to="/iniciativas">Iniciativas</Link>
         </NavBarItem>
         <NavBarItem>
-          <Link to="/info">Informações</Link>
+          <a href="/#texto2">Informações</a>
         </NavBarItem>
         <NavBarItem>
           <Link to="/contato">Contato</Link>
