@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const NavBar = styled.nav`
   align-items: center;
   background-color: rgb(53, 53, 53);
-  border-bottom: 2px solid #dddddd;
   color: white;
   display: flex;
   flex-flow: row nowrap;
@@ -12,6 +11,7 @@ export const NavBar = styled.nav`
   justify-content: space-between;
   padding: 2rem;
   width: 100%;
+  box-shadow: 0px 2px 2px rgba(53, 53, 53, 0.3);
 `;
 
 export const ImgPrincipal = styled.nav`
