@@ -17,6 +17,7 @@ export const Box = styled.div`
 `;
 
 export const TitleLogin = styled.h1`
+  margin-top: 50px;
   color: #454040;
   font-size: 44px;
   text-align: center;
@@ -28,9 +29,9 @@ export const SpanTitle = styled.span`
   color: #34A853
 `;
 
-export const Line = styled.div`
+export const HalfLine = styled.div`
   display: inline-block;
-  width: 200px;
+  width: 215px;
   height: 0.5px;
   background-color: #dedede;
   align-items: center;
@@ -40,4 +41,4 @@ export const Line = styled.div`
 export const AltLogin = styled.h3`
   font-size: 16px;
   font-family: Alata, sans-serif;
-`
+`;

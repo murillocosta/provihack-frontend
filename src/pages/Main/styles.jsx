@@ -52,7 +52,7 @@ export const Container2 = styled.div`
 `;
 
 export const Button = styled.button`
-  background-image: linear-gradient(to right, #4dbc5d, #08aabf);
+  background: linear-gradient(to right, #4dbc5d, #08aabf);
   box-shadow: 2px 1px 0px rgb(0 0 0 / 16%);
   width: 354px;
   height: 56px;

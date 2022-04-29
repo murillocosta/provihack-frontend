@@ -1,52 +1,89 @@
 /* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
+import { Button, ButtonCenter, StyledForm, StyledData, StyledRadio, Line } from './styles'
 
 class Form extends Component {
+
   state = {
     nome: '',
     email: '',
     senha: '',
-  };
+};
 
   handleSubmit = (e) => {
     e.preventDefault()
 
-    let { name } = this.state;
+    const { nome, email, password } = this.state;
 
+    nome;
+    email;
+    password;
 
-    console.log('funcionou', name)
+    console.log('funcionou', nome, email, password)
   }
 
-  handleInputChange = (e) => {
+
+
+  handleNameChange = (e) => {
     this.setState({
       nome: e.target.value,
     });
   };
 
+  handleEmailChange = (e) => {
+    this.setState({
+      email: e.target.value,
+    });
+  };
+
+  handlePasswordChange = (e) => {
+    this.setState({
+      password: e.target.value,
+    });
+  };
+
+
   render() {
-    const { nome } = this.state;
+
     return (
       <section>
-        <form onSubmit={this.handleSubmit}>
-          <label>
+        <StyledForm onSubmit={this.handleSubmit}>
+          <StyledData>
             qual seu nome?
-            <input onChange={this.handleInputChange} type={'text'} placeholder={'nome'}></input>
-          </label>
-          <label>
+          </StyledData>
+          <input name='inputName' onChange={this.handleNameChange} type='text'></input>
+          <StyledData>
             email
-            <input type={'email'} placeholder={'email'}></input>
-          </label>
-          <label>
+          </StyledData>
+          <input name='inputEmail' onChange={this.handleEmailChange} type='email'></input>
+          <StyledData>
             senha
-            <input type={'password'} placeholder={'senha'}></input>
-          </label>
+          </StyledData>
+          <input name='inputPassword' onChange={this.handlePasswordChange} type='password'></input>
+          <StyledData>
+            me interesso por roupas
+          </StyledData>
 
-          <button type={'submit'}></button>
-        </form>
-        <h3> {nome} </h3>
+          <StyledRadio>
+          <input type='radio' id='femininas' name='inputRadio'  onChange={this.handleRadioChange} value='femininas' />
+          <label htmlFor='femininas'>femininas</label>
+          <input type='radio' id='masculinas' name='inputRadio' onChange={this.handleRadioChange} value='masculinas' />
+          <label htmlFor='masclinas'>masculinas</label>
+          </StyledRadio>
+
+          <Line />
+
+          <input type='checkbox' id='aceite' name=''
+          <ButtonCenter>
+            <Button type='submit'>criar conta</Button>
+          </ButtonCenter>
+
+        </StyledForm>
       </section>
     );
   }
 }
+
+
 
 export default Form;
