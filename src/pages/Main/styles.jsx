@@ -49,8 +49,6 @@ export const Container2 = styled.div`
 
     }
   }
-
-  }
 `;
 
 export const Button = styled.button`

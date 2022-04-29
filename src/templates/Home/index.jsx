@@ -11,8 +11,8 @@ export const Home = () => {
   return (
     <BrowserRouter>
       <Header />
-
       <Routes />
+      
     </BrowserRouter>
   );
 };
