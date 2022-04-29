@@ -1,11 +1,14 @@
 import styled from 'styled-components';
-import img from '../../img/img-principal.jpg';
+import imgPrincipal from '../../img/img-principal.jpg';
+import imgRec from '../../img/recycled.jpg';
 
-export const Img = styled.div`
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('${img}') no-repeat;
+export const ImgMain = styled.div`
+  background: url('${imgPrincipal}') no-repeat;
+  background-size: cover;
 `;
 
-export const Body = styled.div`
+export const Container = styled.div`
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   width: 100%;
   height: 100vh;
   display: flex;
@@ -16,9 +19,19 @@ export const Body = styled.div`
   gap: 10px;
 `;
 
+export const Container2 = styled.div`
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  gap: 10px;
+`;
+
 export const Button = styled.button`
-  position: relative;
   background-image: linear-gradient(to right, #4dbc5d, #08aabf);
+  box-shadow: 2px 1px 0px rgb(0 0 0 / 16%);
   width: 354px;
   height: 56px;
   font-weight: bold;
@@ -70,4 +83,10 @@ export const TxtConsumo = styled.h2`
   @media (max-width: 500px) {
     font-size: 3rem;
   }
+`;
+
+export const ImgRecycled = styled.div`
+  width: 100%;
+  height: 100%;
+  background: url('${imgRec}') no-repeat;
 `;

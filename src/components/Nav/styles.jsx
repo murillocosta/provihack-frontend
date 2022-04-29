@@ -2,6 +2,7 @@
 import styled from 'styled-components';
 
 export const NavBar = styled.nav`
+  position: fixed;
   align-items: center;
   background-color: rgb(53, 53, 53);
   color: white;
@@ -12,20 +13,6 @@ export const NavBar = styled.nav`
   padding: 2rem;
   width: 100%;
   box-shadow: 0px 2px 2px rgba(53, 53, 53, 0.3);
-`;
-
-export const ImgPrincipal = styled.nav`
-  align-items: center;
-  background-color: rgb(53, 53, 53);
-  color: white;
-  display: flex;
-  flex-direction: row;
-  height: 3.125rem;
-  justify-content: space-between;
-  padding: 2rem;
-  width: 100%;
-  flex-wrap: no-wrap;
-  overflow: hidden;
 `;
 
 export const NavBarMenu = styled.ul`
@@ -68,6 +55,7 @@ export const NavBarItem = styled.li`
   }
 
   & :hover {
+    color: black;
   }
 `;
 
