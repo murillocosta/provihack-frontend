@@ -4,6 +4,8 @@ import imgRec from '../../img/recycled.jpg';
 
 export const ImgMain = styled.div`
   background: url('${imgPrincipal}') no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
 `;
 
@@ -23,10 +25,31 @@ export const Container2 = styled.div`
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   height: 100vh;
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  align-content: space-between;
-  gap: 10px;
+  overflow: clip;
+  & div {
+    padding: 3rem;
+  }
+  & div h1 {
+    font-family: Antonio, sans-serif;
+    margin-bottom: 5rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  & div p {
+    font-size: 1rem;
+  }
+  @media (max-width: 830px) {
+    & div h1 {
+
+      margin-bottom: 3rem;
+
+    }
+  }
+
+  }
 `;
 
 export const Button = styled.button`
@@ -35,7 +58,7 @@ export const Button = styled.button`
   width: 354px;
   height: 56px;
   font-weight: bold;
-  font: 1.2rem;
+  font-size: 1.2rem;
   font-family: Antonio, sans serif;
   border-radius: 2.7rem;
   color: white;
@@ -86,7 +109,12 @@ export const TxtConsumo = styled.h2`
 `;
 
 export const ImgRecycled = styled.div`
-  width: 100%;
+  min-width: 50%;
   height: 100%;
   background: url('${imgRec}') no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (max-width: 830px) {
+    display: none;
+  }
 `;
