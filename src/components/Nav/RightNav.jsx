@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { NavBarMenu, NavBarItem, UserMenu } from './styles';
 
 const userImg = require('./pp2.jpg');
@@ -10,23 +11,23 @@ export const RightNav = ({ open }) => {
     <>
       <NavBarMenu open={open}>
         <NavBarItem>
-          <a href="">Início</a>
+          <Link to="/inicio">Início</Link>
         </NavBarItem>
         <NavBarItem>
-          <a href="">Sobre nós</a>
+          <Link to="/sobrenos">Sobre nós</Link>
         </NavBarItem>
         <NavBarItem>
-          <a href="">Iniciativas</a>
+          <Link to="/iniciativas">Iniciativas</Link>
         </NavBarItem>
         <NavBarItem>
-          <a href="">Informações</a>
+          <Link to="/info">Informações</Link>
         </NavBarItem>
         <NavBarItem>
-          <a href="">Contato</a>
+          <Link to="/contato">Contato</Link>
         </NavBarItem>
       </NavBarMenu>
       <UserMenu>
-        <h6><a href="">Login</a></h6>
+        <h6><Link to="/login">Login</Link></h6>
         <img src={userImg} alt="Frame redondo contendo a imagem de perfil do usuário logado." />
       </UserMenu>
     </>

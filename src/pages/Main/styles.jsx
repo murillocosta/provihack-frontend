@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 import imgPrincipal from '../../img/img-principal.jpg';
 import imgRec from '../../img/recycled.jpg';
