@@ -65,10 +65,16 @@ export const UserMenu = styled.div`
   text-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
   z-index: 20;
 
+
   & h6 {
     align-self: center;
     margin-right: 0.5rem;
   }
+  & h6 a {
+    text-decoration: none;
+    color: white;
+  }
+
 
   & img {
     border-radius: 50%;
