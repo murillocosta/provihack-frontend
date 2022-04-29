@@ -55,24 +55,30 @@ export const NavBarItem = styled.li`
   }
 
   & :hover {
-    color: black;
+    color: #4dbc5d;
+    transition: all 0.2s ease-in-out;
   }
 `;
 
 export const UserMenu = styled.div`
   cursor: pointer;
   display: flex;
+  align-self: center;
   text-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
   z-index: 20;
 
 
   & h6 {
     align-self: center;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
   }
   & h6 a {
     text-decoration: none;
     color: white;
+  }
+  & h6 a:hover {
+    color: #08aabf;
+    transition: all 0.2s ease-in-out;
   }
 
 
