@@ -1,12 +1,12 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { ImgMain, ImgRecycled, Container, Container2, Button, BemVindo, TxtConsumo } from './styles';
+import { ImgMain, ImgRecycled, Container, Container2, Container3, Button, BemVindo, TxtConsumo } from './styles';
 
 export const Main = () => {
   return (
     <>
     <ImgMain>
-    <Container id={'inicio'}>
+    <Container>
         <BemVindo>BEM-VINDX A ECO PARTILHAR!</BemVindo>
         <TxtConsumo>Democratizando o <br /> consumo sustentável</TxtConsumo>
         <Button>
@@ -15,7 +15,7 @@ export const Main = () => {
       </Container>
     </ImgMain>
 
-    <Container2 id={'texto2'}>
+    <Container2>
     <ImgRecycled />
     <div>
       <h1>Você sabe como sua roupa é feita?</h1>
@@ -26,13 +26,17 @@ export const Main = () => {
       <p>Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que <strong>é possível consumir de forma mais sustentável de maneira acessível</strong> e tão simples como comprar de grandes marcas.</p>
     </div>
     </Container2>
-    <Container className='transforme'>
+
+    <Container3>
       <h3>Transforme seu estilo de forma sustentável!<br/>
         Aqui você pode consumir de forma consciente</h3>
-        <div><div><i></i><p>Roupas confeccionadas de forma consciente e sustentável</p></div>
-        <div><i></i><p>Moda democrática, que cabe em todos os bolsos</p></div>
-        <div><i></i><p>Peças cuidadosamente selecionadas que você vai guardar por um bom tempo</p></div></div>
-    </Container>
+
+        <div>
+          <div><i className="fa-solid fa-recycle fa-4x" /><p>Roupas confeccionadas de forma consciente e sustentável</p></div>
+          <div><i className="fa-solid fa-users fa-4x" /><p>Moda democrática, que cabe em todos os bolsos</p></div>
+          <div><i className="fa-solid fa-hand-holding-heart fa-4x" /><p>Peças cuidadosamente selecionadas que você vai guardar por um bom tempo</p></div>
+        </div>
+    </Container3>
     </>
   );
 };

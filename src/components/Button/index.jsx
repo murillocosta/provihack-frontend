@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import P from 'prop-types';
 import React from 'react';
 import './styles.css';

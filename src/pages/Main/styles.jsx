@@ -20,23 +20,6 @@ export const Container = styled.div`
   justify-content: center;
   align-content: space-between;
   gap: 10px;
-
-  & h3 {
-    color: rgb(80, 73, 73);
-    border-bottom: 0.5px solid black;
-    padding: 3rem;
-  }
-
-  & div {
-    display: flex;
-    flex-direction: row;
-    width: 33%;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 100;
-  }
 `;
 
 export const Container2 = styled.div`
@@ -132,5 +115,26 @@ export const ImgRecycled = styled.div`
   background-position: center;
   @media (max-width: 830px) {
     display: none;
+  }
+`;
+
+export const Container3 = styled.div`
+  text-align: center;
+  margin: 50px 260px;
+
+  & h3 {
+    color: rgb(80, 73, 73);
+    border-bottom: 0.5px solid black;
+    padding: 3rem;
+  }
+
+  & div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
   }
 `;
