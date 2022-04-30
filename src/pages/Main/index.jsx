@@ -38,7 +38,7 @@ export const Main = () => {
         </div>
       </Container2>
 
-      <Container>
+      <Container><section>
         <h3>
           Transforme seu estilo de forma sustentável
           <br />
@@ -67,7 +67,7 @@ export const Main = () => {
               <br /> guardar por um bom tempo
             </p>
           </div>
-        </div>
+        </div></section>
       </Container>
     </>
   );

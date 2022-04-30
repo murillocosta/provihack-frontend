@@ -22,8 +22,14 @@ export const Container = styled.div`
   gap: 10px;
   text-align: center;
 
-  .branco {
+  & section {
+    display: flex;
+    flex-flow: column nowrap;
     background: white;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
   }
   & div {
     display: flex;
@@ -52,10 +58,15 @@ export const Container = styled.div`
   }
 
   @media (max-width: 830px) {
+    & section {
+      margin-top: 5rem;
+    }
+
     & h3 {
       width: 80%;
       padding: 2rem;
-      margin: 0 auto;
+      margin-top: 200px;
+
     }
 
     & div {
