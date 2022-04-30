@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const ContainerLogin = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,8 @@ export const Box = styled.div`
 `;
 
 export const TitleLogin = styled.h1`
-  margin-top: 50px;
+  margin-top: 300px;
+  margin-bottom: 50px;
   color: #454040;
   font-size: 44px;
   text-align: center;

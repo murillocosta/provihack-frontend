@@ -6,9 +6,9 @@ export const Main = () => {
   return (
     <>
     <ImgMain>
-    <Container>
-        <BemVindo>BEM-VINDO AO ECO PARTILHAR!</BemVindo>
-        <TxtConsumo>Promovendo o consumo <br /> sustentável</TxtConsumo>
+    <Container id={'inicio'}>
+        <BemVindo>BEM-VINDX A ECO PARTILHAR!</BemVindo>
+        <TxtConsumo>Democratizando o <br /> consumo sustentável</TxtConsumo>
         <Button>
           Saiba mais sobre essa iniciativa
         </Button>
@@ -19,9 +19,20 @@ export const Main = () => {
     <ImgRecycled />
     <div>
       <h1>Você sabe como sua roupa é feita?</h1>
-      <p>Circularidade e reciclagem têxtil | A cada dia, toneladas de &quot;lixo têxtil&quot; são jogadas em aterros sanitários. O  desperdício ainda está na moda: &quot;estima-se que as perdas nas várias fases da etapa de fabricação de camisetas estão na ordem de 50% para o algodão, 31% para a poliamida e 29% para o poliéster. Em todos os casos, a etapa com maior perda é a confecção (corte e costura) – responsável por 25%&quot;, diz o relatório. Nesse contexto, a economia circular se apresenta como uma das alternativas para acabar com o problema. O relatório define o conceito de moda circular como &quot;intimamente relacionado com um sistema de produção e consumo de ciclo fechado, que tem como base a reciclagem, reparação e reutilização dos materiais e insumos utilizados durante todo o processo produtivo por diversas vezes.&quot;</p>
+      <p>Na Eco Partilhar, nós somos <strong>100% transparentes quanto o processo de produção</strong> das peças que selecionamos. Isso porque a gente se preocupa com os impactos causados pela segunda maior causadora da poluição no mundo: <strong>a indústria da moda.</strong></p>
+
+      <p>Com a missão de ser uma <strong>alternativa viável</strong> à indústria do fast fashion,a Eco Partilhar nasce com o objetivo de <strong>fomentar o consumo consciente de moda.</strong></p>
+
+      <p>Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que <strong>é possível consumir de forma mais sustentável de maneira acessível</strong> e tão simples como comprar de grandes marcas.</p>
     </div>
     </Container2>
+    <Container className='transforme'>
+      <h3>Transforme seu estilo de forma sustentável!<br/>
+        Aqui você pode consumir de forma consciente</h3>
+        <div><div><i></i><p>Roupas confeccionadas de forma consciente e sustentável</p></div>
+        <div><i></i><p>Moda democrática, que cabe em todos os bolsos</p></div>
+        <div><i></i><p>Peças cuidadosamente selecionadas que você vai guardar por um bom tempo</p></div></div>
+    </Container>
     </>
   );
 };

@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
-import { Button, ButtonCenter, StyledForm, StyledData, StyledRadio, Line } from './styles'
+import { Button, ButtonCenter, StyledForm, StyledData, StyledRadio, Line, StyledLink } from './styles'
 
 class Form extends Component {
 
@@ -68,12 +68,20 @@ class Form extends Component {
           <input type='radio' id='femininas' name='inputRadio'  onChange={this.handleRadioChange} value='femininas' />
           <label htmlFor='femininas'>femininas</label>
           <input type='radio' id='masculinas' name='inputRadio' onChange={this.handleRadioChange} value='masculinas' />
-          <label htmlFor='masclinas'>masculinas</label>
+          <label htmlFor='masculinas'>masculinas</label>
           </StyledRadio>
 
           <Line />
 
-          <input type='checkbox' id='aceite' name=''
+          <label>
+            <input type='checkbox' id='aceite' />
+            aceito receber novidades do Eco Partilhar
+          </label>
+          <label>
+            <input type='checkbox' id='aceite' />
+            estou de acordo com os <StyledLink>termos de serviço</StyledLink> e a <StyledLink>política de privacidade</StyledLink> do Eco Patilhar
+          </label>
+
           <ButtonCenter>
             <Button type='submit'>criar conta</Button>
           </ButtonCenter>

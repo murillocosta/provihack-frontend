@@ -1,8 +1,10 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 
 export const Button = styled.button`
-  width: 8rem;
-  height: 2.5rem;
+  margin: 50px 0px;
+  width: 178px;
+  height: 56px;
   background: linear-gradient(to right, #4dbc5d, #08aabf);
   border-radius: 44px;
   color: white;
@@ -47,4 +49,10 @@ export const Line = styled.div`
   align-items: center;
   text-align: center;
   margin: 30px 0px;
+`;
+
+export const StyledLink = styled.a`
+  cursor: pointer;
+  color: #00a694;
+  text-decoration: none;
 `;
