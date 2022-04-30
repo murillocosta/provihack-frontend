@@ -20,7 +20,7 @@ export const RightNav = ({ open }) => {
           <Link to="/iniciativas">Iniciativas</Link>
         </NavBarItem>
         <NavBarItem>
-          <a href="/#inicio">Informações</a>
+          <a href="/#texto2">Informações</a>
         </NavBarItem>
         <NavBarItem>
           <Link to="/contato">Contato</Link>

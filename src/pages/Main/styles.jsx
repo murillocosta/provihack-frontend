@@ -20,6 +20,55 @@ export const Container = styled.div`
   justify-content: center;
   align-content: space-between;
   gap: 10px;
+  text-align: center;
+
+  .branco {
+    background: white;
+  }
+  & div {
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+
+    & div {
+      margin: 5rem 1rem;
+      display: flex;
+      flex-flow: column nowrap;
+      & i{
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+
+  & h3 {
+    color: rgb(80, 73, 73);
+    border-bottom: 0.5px solid black;
+    padding: 3rem;
+  }
+
+  @media (max-width: 830px) {
+    & h3 {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+    }
+
+    & div {
+      flex-flow: column nowrap;
+      padding: 0;
+      font-size: 0.9rem;
+      margin: 50px;
+
+      & div {
+        margin-top: 5px;
+      }
+    }
+  }
 `;
 
 export const Container2 = styled.div`
@@ -115,26 +164,5 @@ export const ImgRecycled = styled.div`
   background-position: center;
   @media (max-width: 830px) {
     display: none;
-  }
-`;
-
-export const Container3 = styled.div`
-  text-align: center;
-  margin: 50px 260px;
-
-  & h3 {
-    color: rgb(80, 73, 73);
-    border-bottom: 0.5px solid black;
-    padding: 3rem;
-  }
-
-  & div {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
   }
 `;

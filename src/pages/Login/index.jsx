@@ -10,64 +10,16 @@ const loadProducts = [
   {
     id: 1,
     title: 'Vestido',
-    body: 'body 1',
-    cover: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guller.com.br%2Fvestidos%2F1479-vestido-curto-decote-quadrado-bot%25C3%25A3o-cintura-empire-estilo-sexy-club-b%25C3%25A1sica-moda-ver%25C3%25A3o-feminina.html&psig=AOvVaw0cWzS4CEoVg6dp8Jpg4VMi&ust=1651415130963000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMCau_X-u_cCFQAAAAAdAAAAABAD',
-  },
-  {
-    id: 2,
-    title: 'title 2',
-    body: 'body 2',
-    cover: 'img/img2.png',
-  },
-  {
-    id: 3,
-    title: 'title 3',
-    body: 'body 3',
-    cover: 'img/img3.png',
-  },
-  {
-    id: 4,
-    title: 'title 1',
-    body: 'body 1',
-    cover: 'img/img1.png',
-  },
-  {
-    id: 2,
-    title: 'title 2',
-    body: 'body 2',
-    cover: 'img/img2.png',
-  },
-  {
-    id: 3,
-    title: 'title 3',
-    body: 'body 3',
-    cover: 'img/img3.png',
-  },
-  {
-    id: 1,
-    title: 'title 1',
-    body: 'body 1',
-    cover: 'img/img1.png',
-  },
-  {
-    id: 2,
-    title: 'title 2',
-    body: 'body 2',
-    cover: 'img/img2.png',
-  },
-  {
-    id: 3,
-    title: 'title 3',
-    body: 'body 3',
-    cover: 'img/img3.png',
-  },
+    body: 'Vestido amarelo, tamanho M. Estado de uso: pouco uso.',
+    cover: './vestido1.jpg',
+  }
 ]
 
 export const Login = () => {
   const [products, setProducts] = useState([]);
   const [allProducts, setAllProducts] = useState([]);
   const [page, setPage] = useState(0);
-  const [productsPerPage] = useState(3);
+  const [productsPerPage] = useState(1);
   const [searchValue, setSearchValue] = useState('');
 
   const noMoreProducts = page + productsPerPage >= allProducts.length;
