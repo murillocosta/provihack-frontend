@@ -58,6 +58,8 @@ export const Container = styled.div`
   }
 
   @media (max-width: 830px) {
+    height: 770px;
+
     & section {
       margin-top: 5rem;
     }
@@ -73,10 +75,10 @@ export const Container = styled.div`
       flex-flow: column nowrap;
       padding: 0;
       font-size: 0.9rem;
-      margin: 50px;
+      margin: 40px;
 
       & div {
-        margin-top: 5px;
+        margin-top: 4px;
       }
     }
   }
@@ -104,9 +106,7 @@ export const Container2 = styled.div`
   }
   @media (max-width: 830px) {
     & div h1 {
-
       margin-bottom: 3rem;
-
     }
   }
 `;

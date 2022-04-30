@@ -5,7 +5,7 @@ import { ImgMain, ImgRecycled, Container, Container2, Button, BemVindo, TxtConsu
 export const Main = () => {
   return (
     <>
-      <ImgMain>
+      <ImgMain id="inicio">
         <Container>
           <BemVindo>BEM-VINDX A ECO PARTILHAR!</BemVindo>
           <TxtConsumo>
@@ -15,7 +15,7 @@ export const Main = () => {
         </Container>
       </ImgMain>
 
-      <Container2>
+      <Container2 id='texto2'>
         <ImgRecycled />
         <div>
           <h1>Você sabe como sua roupa é feita?</h1>
