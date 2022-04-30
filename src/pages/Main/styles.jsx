@@ -50,7 +50,6 @@ export const Container = styled.div`
     }
   }
 
-
   & h3 {
     color: rgb(80, 73, 73);
     border-bottom: 0.5px solid black;
@@ -58,7 +57,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 830px) {
-    height: 770px;
+    height: 80vh;
 
     & section {
       margin-top: 5rem;
@@ -85,7 +84,7 @@ export const Container = styled.div`
 `;
 
 export const Container2 = styled.div`
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-color: #ebeaea;
   height: 100vh;
   display: flex;
   flex-flow: row nowrap;
@@ -112,15 +111,15 @@ export const Container2 = styled.div`
 `;
 
 export const Button = styled.button`
-  background: linear-gradient(to right, #4dbc5d, #08aabf);
-  box-shadow: 2px 1px 0px rgb(0 0 0 / 16%);
+  background: linear-gradient(to right, #ffdb5b, #f3c82f);
+  box-shadow: 1px 1px 0px rgb(0 0 0 / 16%);
   width: 354px;
   height: 56px;
   font-weight: bold;
   font-size: 1.2rem;
   font-family: Antonio, sans serif;
   border-radius: 2.7rem;
-  color: white;
+  color: black;
 
   @media (max-width: 830px) {
     width: 300px;
@@ -177,3 +176,66 @@ export const ImgRecycled = styled.div`
     display: none;
   }
 `;
+
+export const Container3 = styled.div`
+  background-color: #ebeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h4 {
+    font-size: 24px;
+  }
+
+  & p {
+    font-size: 15px;
+  }
+
+  @media (max-width: 830px) {
+    flex-flow: column nowrap;
+    margin-top: 280px;
+
+    & h4 {
+      font-size: 20px;
+    }
+
+    & p {
+      font-size: 14px;
+    }
+  }
+`;
+
+export const DivImgs = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+
+  & img {
+    margin: 0 15px;
+  }
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+    gap: 15px;
+  }
+`;
+
+export const H2Styled = styled.h2`
+  margin-top: 25px;c
+  background-color: white;
+  width: 65%;
+  text-align: center;
+  font-size: 28px;
+
+  @media (max-width: 830px) {
+    font-size: 22px;
+  }
+`;
+
+export const CompaniesInfo = styled.div`
+  margin: 20px 130px;
+
+  @media (max-width: 830px) {
+    margin: 20px 100px;
+  }
+`;
+
