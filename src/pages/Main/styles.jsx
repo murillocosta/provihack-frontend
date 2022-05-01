@@ -23,6 +23,7 @@ export const Container = styled.div`
   text-align: center;
 
   & section {
+    padding: 20px;
     display: flex;
     flex-flow: column nowrap;
     background: white;
@@ -30,6 +31,7 @@ export const Container = styled.div`
     height: 100%;
     align-items: center;
     justify-content: center;
+
   }
   & div {
     display: flex;
@@ -59,14 +61,10 @@ export const Container = styled.div`
   @media (max-width: 830px) {
     height: 80vh;
 
-    & section {
-      margin-top: 5rem;
-    }
-
     & h3 {
       width: 80%;
       padding: 2rem;
-      margin-top: 200px;
+      margin-top: 300px;
 
     }
 
@@ -220,9 +218,8 @@ export const DivImgs = styled.div`
 `;
 
 export const H2Styled = styled.h2`
-  margin-top: 25px;c
-  background-color: white;
-  width: 65%;
+  margin-top: 25px;
+  width: 100%;
   text-align: center;
   font-size: 28px;
 

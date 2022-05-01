@@ -79,7 +79,7 @@ export const Main = () => {
       </Container>
 
       <Container3>
-        <H2Styled>Confira as marcas que nós selecionamos para trazer a moda eco-friendly mais perto de você</H2Styled>
+        <H2Styled>Confira as marcas que nós selecionamos para trazer a<br /> moda eco-friendly mais perto de você</H2Styled>
 
         <CompaniesInfo>
         <h4>Studio eco</h4>
@@ -106,6 +106,7 @@ export const Main = () => {
         <img src={womancolor3}/>
         </DivImgs>
       </Container3>
+      <H2Styled>O que você vai encontrar por aqui?</H2Styled>
       <ModelCard />
     </>
   );
