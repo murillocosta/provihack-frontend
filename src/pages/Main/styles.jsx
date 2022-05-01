@@ -35,7 +35,6 @@ export const Container = styled.div`
 
   }
   & div {
-    background-color: red;
     display: flex;
     flex-flow: row nowrap;
     text-align: center;
@@ -45,7 +44,6 @@ export const Container = styled.div`
     height: 250px;
 
     & div {
-      background-color: yellow;
       margin: 5rem 1rem;
       display: flex;
       flex-flow: column nowrap;
@@ -62,12 +60,14 @@ export const Container = styled.div`
   }
 
   @media (max-width: 830px) {
-    height: 80vh;
 
+    & section aside {
+      display: none;
+    }
     & h3 {
       width: 80%;
       padding: 2rem;
-      margin-top: 300px;
+      margin-top: 100px;
     }
 
     & div {

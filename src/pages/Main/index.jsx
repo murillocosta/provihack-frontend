@@ -93,10 +93,12 @@ export const Main = () => {
             </div>
           </div>
 
-          <DivImgs>
-            <img src={openarms} />
-            <h2>Vista a mudança que quer ver no mundo</h2>
-          </DivImgs>
+          <aside>
+            <DivImgs>
+              <img src={openarms} />
+              <h2>Vista a mudança que quer ver no mundo</h2>
+            </DivImgs>
+          </aside>
         </section>
       </Container>
 
