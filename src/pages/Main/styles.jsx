@@ -67,7 +67,7 @@ export const Container = styled.div`
     & h3 {
       width: 80%;
       padding: 2rem;
-      margin-top: 100px;
+      margin-top: -100px;
     }
 
     & div {
