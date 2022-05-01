@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { NavBarMenu, NavBarItem, UserMenu } from './styles';
 
 const userImg = require('../../img/logged-out.jpg');
+const circleLogin = require('../../img/circleLogin.png')
 
 // eslint-disable-next-line react/prop-types
 export const RightNav = ({ open }) => {
@@ -28,9 +29,9 @@ export const RightNav = ({ open }) => {
       </NavBarMenu>
       <UserMenu>
         <h6>
-          <Link to="">Login</Link>
+          <Link to=""></Link>
         </h6>
-        <img src={userImg} alt="Frame redondo contendo a imagem de perfil do usuário logado." />
+        <img src={circleLogin} alt="Frame redondo contendo a imagem de perfil do usuário logado." />
       </UserMenu>
     </>
   );

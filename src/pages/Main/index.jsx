@@ -42,22 +42,21 @@ export const Main = () => {
       <Container2 id="texto2">
         <ImgRecycled />
         <div>
-          <h1>Você sabe como sua roupa é feita?</h1>
+          <h1>Você já parou pra pensar no processo de produção de suas roupas?</h1>
           <ParLato>
-            Na Eco Partilhar, nós somos <strong>100% transparentes quanto ao processo de produção</strong> das peças que
-            selecionamos. Isso porque a gente se preocupa com os impactos causados pela segunda maior causadora da
-            poluição no mundo: <strong>a indústria da moda.</strong>
+          <strong>Os impactos da produção ocorrem ao longo de toda cadeia têxtil.</strong> Envolvem contaminação de solo, consumo de água, energia, emissões de poluentes e resíduos finais.
           </ParLato>
 
           <ParLato>
-            Com a missão de ser uma <strong>alternativa viável</strong> à indústria do fast fashion, a Eco Partilhar
-            nasce com o objetivo de <strong>fomentar o consumo consciente de moda.</strong>
+          Segundo a Associação Brasileira da Indústria Têxtil e Confecção (ABIT), <strong>são descartados todos os dias cerca de 12 toneladas de retalhos produzidos por mais de 1,2 mil confecções.</strong>
           </ParLato>
 
           <ParLato>
-            Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que{' '}
-            <strong>é possível consumir de forma mais sustentável de maneira acessível</strong> e tão simples como
-            comprar de grandes marcas.
+          Com isso, o volume dos resíduos contribuem para aumentar a taxa em 2,2 bilhões de toneladas até 2025.
+          </ParLato>
+
+          <ParLato>
+          E você, vai continuar contribuindo pra essa estatística alarmante? <strong>Ajude-nos a cuidar do nosso meio ambiente, afinal não existe planeta B!</strong>
           </ParLato>
         </div>
       </Container2>

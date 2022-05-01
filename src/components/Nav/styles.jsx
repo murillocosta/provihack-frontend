@@ -64,7 +64,7 @@ export const UserMenu = styled.div`
   cursor: pointer;
   display: flex;
   align-self: center;
-  text-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
+  // text-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
   z-index: 20;
 
   & h6 {
@@ -84,6 +84,6 @@ export const UserMenu = styled.div`
     border-radius: 50%;
     max-width: 2.5rem;
     max-height: 2.5rem;
-    box-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
+    // box-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
   }
 `;
