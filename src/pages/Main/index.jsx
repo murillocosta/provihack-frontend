@@ -24,6 +24,7 @@ import womancolor2 from '../../img/womancolor2.jpg';
 import womancolor3 from '../../img/womancolor3.jpg';
 import openarms from '../../img/openarms.png'
 import { ModelCard } from '../../components/ModelCard';
+import { WeOffer } from '../../components/WeOffer';
 
 export const Main = () => {
   return (
@@ -138,6 +139,7 @@ export const Main = () => {
           <img src={womancolor3} />
         </DivImgs>
       </Container3>
+      <WeOffer />
       <H2Styled>O que você vai encontrar por aqui?</H2Styled>
       <ModelCard />
 
