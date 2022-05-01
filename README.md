@@ -1,3 +1,13 @@
+# EcoPartilhar 
+
+## Projeto desenvolvido para o ProviHack do Agora.
+
+![image](https://user-images.githubusercontent.com/91096652/166158791-85e0a837-d992-4a00-be25-633106bff9de.png)
+
+
+### Ser uma alternativa viável à moda ecológica e apoiar pequenas marcas sustentáveis com o objetivo de fomentar o consumo consciente de roupas. Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que é possível consumir de forma sustentável e acessível de forma tão simples quanto comprar de grandes marcas.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
