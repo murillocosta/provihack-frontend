@@ -14,6 +14,7 @@ import {
   TxtConsumo,
   H2Styled,
   DivImgs,
+  ParLato,
 } from './styles';
 import womanbw1 from '../../img/womanb1.png';
 import womanbw2 from '../../img/womanb2.png';
@@ -41,22 +42,22 @@ export const Main = () => {
         <ImgRecycled />
         <div>
           <h1>Você sabe como sua roupa é feita?</h1>
-          <p>
+          <ParLato>
             Na Eco Partilhar, nós somos <strong>100% transparentes quanto o processo de produção</strong> das peças que
             selecionamos. Isso porque a gente se preocupa com os impactos causados pela segunda maior causadora da
             poluição no mundo: <strong>a indústria da moda.</strong>
-          </p>
+          </ParLato>
 
-          <p>
+          <ParLato>
             Com a missão de ser uma <strong>alternativa viável</strong> à indústria do fast fashion,a Eco Partilhar
             nasce com o objetivo de <strong>fomentar o consumo consciente de moda.</strong>
-          </p>
+          </ParLato>
 
-          <p>
+          <ParLato>
             Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que{' '}
             <strong>é possível consumir de forma mais sustentável de maneira acessível</strong> e tão simples como
             comprar de grandes marcas.
-          </p>
+          </ParLato>
         </div>
       </Container2>
 
@@ -94,6 +95,7 @@ export const Main = () => {
 
           <DivImgs>
             <img src={openarms} />
+            <h2>Vista a mudança que quer ver no mundo</h2>
           </DivImgs>
         </section>
       </Container>
@@ -140,7 +142,7 @@ export const Main = () => {
       <ImgSobreNos id="sobrenos">
         <Container4>
           <div>
-            <h1>Sobre a Eco Partilhar</h1>
+            <h2>Sobre a Eco Partilhar</h2>
             <p>Somos 100% transparentes quanto ao processo de produção das peças que selecionamos. Isso porque a gente se preocupa com os impactos causados pela segunda maior causadora de poluição socioambiental do mundo: <strong>a indústria da moda.</strong></p>
 
             <h2>Nossa Missão</h2>

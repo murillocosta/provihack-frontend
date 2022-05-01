@@ -13,6 +13,7 @@ export const NavBar = styled.nav`
   padding: 2rem;
   width: 100%;
   box-shadow: 0px 2px 2px rgba(53, 53, 53, 0.3);
+  z-index: 100;
 `;
 
 export const NavBarMenu = styled.ul`

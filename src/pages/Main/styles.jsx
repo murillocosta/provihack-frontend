@@ -207,11 +207,20 @@ export const Container3 = styled.div`
 `;
 
 export const DivImgs = styled.div`
+  position: relative;
   display: flex;
   justify-content: space-evenly;
 
   & img {
     margin: 0 15px;
+  }
+
+  & h2 {
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    width: 370px;
+    font-size: 30px;
   }
 
   @media (max-width: 830px) {
@@ -249,7 +258,7 @@ export const ImgSobreNos = styled.div`
 `;
 
 export const Container4 = styled.div`
-background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  background: linear-gradient(rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.19));
   width: 100%;
   height: 100vh;
   display: flex;
@@ -265,6 +274,27 @@ background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)
 
     & p {
       line-height: 50px;
+      font-weight: 400;
+    }
+
+    @media (max-width: 830px) {
+      padding: 10px 60px;
+
+      & h2 {
+        font-size: 22px;
+      }
+
+      & p {
+        line-height: 25px;
+        font-size: 13px;
+      }
     }
   }
+`;
+
+// configs
+
+
+export const ParLato = styled.p`
+  font-family: Lato, sans-serif;
 `;
