@@ -7,6 +7,7 @@ import womanbw3 from '../../img/womanb3.png'
 import womancolor1 from '../../img/womancolor1.jpg'
 import womancolor2 from '../../img/womancolor2.jpg'
 import womancolor3 from '../../img/womancolor3.jpg'
+import { ModelCard } from '../../components/ModelCard'
 
 
 export const Main = () => {
@@ -105,6 +106,7 @@ export const Main = () => {
         <img src={womancolor3}/>
         </DivImgs>
       </Container3>
+      <ModelCard />
     </>
   );
 };
