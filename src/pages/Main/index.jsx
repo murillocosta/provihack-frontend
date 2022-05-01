@@ -102,12 +102,12 @@ export const Main = () => {
         </section>
       </Container>
 
-      <Container3>
+      <Container3 id="iniciativas">
         <H2Styled>
           Confira as marcas que nós selecionamos para trazer a<br /> moda eco-friendly mais perto de você
         </H2Styled>
 
-        <CompaniesInfo id="iniciativas">
+        <CompaniesInfo >
           <h4>Studio eco</h4>
 
           <p>

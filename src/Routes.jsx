@@ -19,15 +19,10 @@ export default () => {
           iniciativas
       </Route>
 
-      {/* <Route exact path="#info">
-          info
-      </Route> */}
-
       <Route exact path="/contato">
           contato
       </Route>
 
-      {/* <Route exact path="/login" element={<Login />}/> */}
     </Routes>
   );
 }
