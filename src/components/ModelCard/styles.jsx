@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import imgCard from './modelCardPhoto.jpg';
+import imgCard from '../../img/modelCardPhoto.jpg';
 
 export const Section = styled.section`
   display: flex;
@@ -36,29 +36,24 @@ export const InfoContainer = styled.section`
     font-size: 1.5em;
     margin-bottom: 20px;
   }
-
   & h2 {
     color: rgb(7, 155, 174);
     margin-bottom: 20px;
   }
-
   & h3 {
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     margin-bottom: 20px;
   }
-
   & h4 {
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-
   & p {
     font-family: 'Lato', sans-serif;
     font-size: 0.9em;
     margin-bottom: 20px;
   }
-
   & span {
     display: flex;
     flex-flow: row nowrap;
@@ -76,7 +71,10 @@ export const InfoContainer = styled.section`
       font-weight: bold;
       cursor: pointer;
     }
-
+    & span:hover {
+      background: rgb(65, 60, 65);
+      transition: 0.8s;
+    }
     @media (max-width: 830px) {
       margin-top: 10px;
     }

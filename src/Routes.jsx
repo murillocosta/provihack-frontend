@@ -4,7 +4,7 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom';
 
 import { Main } from './pages/Main';
-import { Login } from './pages/Login'
+// import { Login } from './pages/Login'
 
 export default () => {
   return (
@@ -27,7 +27,7 @@ export default () => {
           contato
       </Route>
 
-      <Route exact path="/login" element={<Login />}/>
+      {/* <Route exact path="/login" element={<Login />}/> */}
     </Routes>
   );
 }

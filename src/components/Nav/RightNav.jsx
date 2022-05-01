@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { NavBarMenu, NavBarItem, UserMenu } from './styles';
 
-const userImg = require('./pp2.jpg');
+const userImg = require('../../img/logged-out.jpg');
 
 // eslint-disable-next-line react/prop-types
 export const RightNav = ({ open }) => {
@@ -27,7 +27,9 @@ export const RightNav = ({ open }) => {
         </NavBarItem>
       </NavBarMenu>
       <UserMenu>
-        <h6><Link to="/login">Login</Link></h6>
+        <h6>
+          <Link to="">Login</Link>
+        </h6>
         <img src={userImg} alt="Frame redondo contendo a imagem de perfil do usuário logado." />
       </UserMenu>
     </>

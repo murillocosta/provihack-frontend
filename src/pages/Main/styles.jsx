@@ -31,7 +31,6 @@ export const Container = styled.div`
     height: 100%;
     align-items: center;
     justify-content: center;
-
   }
   & div {
     display: flex;
@@ -46,7 +45,7 @@ export const Container = styled.div`
       margin: 5rem 1rem;
       display: flex;
       flex-flow: column nowrap;
-      & i{
+      & i {
         margin-bottom: 1rem;
       }
     }
@@ -65,7 +64,6 @@ export const Container = styled.div`
       width: 80%;
       padding: 2rem;
       margin-top: 300px;
-
     }
 
     & div {
@@ -180,6 +178,7 @@ export const Container3 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
 
   & h4 {
     font-size: 24px;
@@ -235,4 +234,3 @@ export const CompaniesInfo = styled.div`
     margin: 20px 100px;
   }
 `;
-

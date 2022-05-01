@@ -47,7 +47,7 @@ export const Logo = styled.div`
 export const NavBarItem = styled.li`
   margin-left: 1rem;
   text-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
-  
+
   & a {
     color: white;
     text-decoration: none;
@@ -66,7 +66,6 @@ export const UserMenu = styled.div`
   text-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
   z-index: 20;
 
-
   & h6 {
     align-self: center;
     margin-right: 1rem;
@@ -79,7 +78,6 @@ export const UserMenu = styled.div`
     color: #08aabf;
     transition: all 0.2s ease-in-out;
   }
-
 
   & img {
     border-radius: 50%;
