@@ -24,5 +24,6 @@ export const ContainerFooter = styled.div`
 
   @media (max-width: 830px) {
     flex-direction: column;
+    align-items: center;
   }
 `;
