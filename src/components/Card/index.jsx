@@ -4,6 +4,7 @@ import P from 'prop-types';
 import { ProductCard, ProductContent } from './styles';
 
 export const Card = ({ title, cover, body, id }) => (
+  <>
   <ProductCard>
     <img src={cover} alt={title} />
     <ProductContent>
@@ -13,6 +14,8 @@ export const Card = ({ title, cover, body, id }) => (
       <p>{body}</p>
     </ProductContent>
   </ProductCard>
+  </>
+
 );
 
 Card.propTypes = {

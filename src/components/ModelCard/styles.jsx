@@ -19,7 +19,7 @@ export const Section = styled.section`
 export const PhotoContainer = styled.section`
   display: flex;
   flex-flow: row nowrap;
-  width: 509px;
+  width: 440px;
   height: 660px;
   background-attatchment: fixed;
   background: url('${imgCard}') no-repeat;

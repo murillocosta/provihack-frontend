@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 
 export const Main = styled.section`
@@ -8,6 +9,7 @@ export const Main = styled.section`
   margin: auto;
   width: 100%;
   height: 100vh;
+
   & h3 {
     color: rgb(53, 53, 53);
     padding: 20px;
@@ -21,23 +23,27 @@ export const Main = styled.section`
     align-items: center;
 
     & div {
-      margin: auto;
-      padding: 20px;
+      padding: 7px;
+
       & div {
-        display: flex;
         justify-content: flex-start;
+        display: flex;
         align-items: center;
         margin-right: 10px;
         margin-top: 50px;
         margin-bottom: 20px;
-        gap: 15px;
-        & i {
-          border-radius: 50%;
-          border: 1px solid gray;
-          padding: 10px;
-          font-size: 20px;
+        gap: 10px;
+
+        & p {
+          margin-top: 30px;
         }
       }
     }
   }
+`;
+
+export const Circle = styled.div`
+  border: 1px solid black;
+  border-radius: 50%;
+  align-items: center;
 `;
