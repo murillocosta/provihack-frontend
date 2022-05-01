@@ -44,13 +44,13 @@ export const Main = () => {
         <div>
           <h1>Você sabe como sua roupa é feita?</h1>
           <ParLato>
-            Na Eco Partilhar, nós somos <strong>100% transparentes quanto o processo de produção</strong> das peças que
+            Na Eco Partilhar, nós somos <strong>100% transparentes quanto ao processo de produção</strong> das peças que
             selecionamos. Isso porque a gente se preocupa com os impactos causados pela segunda maior causadora da
             poluição no mundo: <strong>a indústria da moda.</strong>
           </ParLato>
 
           <ParLato>
-            Com a missão de ser uma <strong>alternativa viável</strong> à indústria do fast fashion,a Eco Partilhar
+            Com a missão de ser uma <strong>alternativa viável</strong> à indústria do fast fashion, a Eco Partilhar
             nasce com o objetivo de <strong>fomentar o consumo consciente de moda.</strong>
           </ParLato>
 
