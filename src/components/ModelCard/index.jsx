@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Section, PhotoContainer, InfoContainer, CompositionContainer, CycleSymbol } from './styles';
 // const modelCardPhoto = require('./modelCardPhoto.jpg');

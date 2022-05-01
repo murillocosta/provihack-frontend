@@ -2,10 +2,12 @@
 import React from 'react';
 import {
   ImgMain,
+  ImgSobreNos,
   ImgRecycled,
   Container,
   Container2,
   Container3,
+  Container4,
   CompaniesInfo,
   Button,
   BemVindo,
@@ -19,6 +21,7 @@ import womanbw3 from '../../img/womanb3.png';
 import womancolor1 from '../../img/womancolor1.jpg';
 import womancolor2 from '../../img/womancolor2.jpg';
 import womancolor3 from '../../img/womancolor3.jpg';
+import openarms from '../../img/openarms.png'
 import { ModelCard } from '../../components/ModelCard';
 
 export const Main = () => {
@@ -88,6 +91,10 @@ export const Main = () => {
               </p>
             </div>
           </div>
+
+          <DivImgs>
+            <img src={openarms} />
+          </DivImgs>
         </section>
       </Container>
 
@@ -129,6 +136,18 @@ export const Main = () => {
       </Container3>
       <H2Styled>O que você vai encontrar por aqui?</H2Styled>
       <ModelCard />
+
+      <ImgSobreNos id="sobrenos">
+        <Container4>
+          <div>
+            <h1>Sobre a Eco Partilhar</h1>
+            <p>Somos 100% transparentes quanto ao processo de produção das peças que selecionamos. Isso porque a gente se preocupa com os impactos causados pela segunda maior causadora de poluição socioambiental do mundo: <strong>a indústria da moda.</strong></p>
+
+            <h2>Nossa Missão</h2>
+            <p>Ser uma alternativa viável à moda ecológica e apoiar pequenas marcas sustentáveis com o objetivo de fomentar o consumo consciente de roupas. Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que é possível consumir de forma sustentável e acessível de forma tão simples quanto comprar de grandes marcas.</p>
+          </div>
+        </Container4>
+      </ImgSobreNos>
     </>
   );
 };

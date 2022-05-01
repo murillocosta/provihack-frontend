@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 import imgPrincipal from '../../img/img-principal.jpg';
+import grupoamigos from '../../img/grupoamigos.png'
 import imgRec from '../../img/recycled.jpg';
 
 export const ImgMain = styled.div`
@@ -31,17 +32,20 @@ export const Container = styled.div`
     height: 100%;
     align-items: center;
     justify-content: center;
+
   }
   & div {
+    background-color: red;
     display: flex;
     flex-flow: row nowrap;
     text-align: center;
-    padding: 10px;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     font-weight: 300;
+    height: 250px;
 
     & div {
+      background-color: yellow;
       margin: 5rem 1rem;
       display: flex;
       flex-flow: column nowrap;
@@ -232,5 +236,35 @@ export const CompaniesInfo = styled.div`
 
   @media (max-width: 830px) {
     margin: 20px 100px;
+  }
+`;
+
+// Container 4
+
+export const ImgSobreNos = styled.div`
+  background: url('${grupoamigos}') no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+`;
+
+export const Container4 = styled.div`
+background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato, sans-serif;
+
+  & div {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    width: 80%;
+    padding: 20px 120px;
+    text-align: center;
+
+    & p {
+      line-height: 50px;
+    }
   }
 `;

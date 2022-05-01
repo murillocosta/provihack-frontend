@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 import imgCard from '../../img/modelCardPhoto.jpg';
 

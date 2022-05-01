@@ -1,5 +1,5 @@
-/* eslint-disable react/display-name */
 /* eslint-disable prettier/prettier */
+/* eslint-disable react/display-name */
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
 

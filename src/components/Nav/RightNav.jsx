@@ -17,13 +17,13 @@ export const RightNav = ({ open }) => {
           <a href="/#texto2">Informações</a>
         </NavBarItem>
         <NavBarItem>
-          <Link to="/sobrenos">Sobre nós</Link>
-        </NavBarItem>
-        <NavBarItem>
           <Link to="/iniciativas">Iniciativas</Link>
         </NavBarItem>
         <NavBarItem>
           <Link to="/contato">Contato</Link>
+        </NavBarItem>
+        <NavBarItem>
+          <a href="/#sobrenos">Sobre nós</a>
         </NavBarItem>
       </NavBarMenu>
       <UserMenu>
