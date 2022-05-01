@@ -110,7 +110,8 @@ export const Container2 = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
+  display: flex;
   background: linear-gradient(to right, #ffdb5b, #f3c82f);
   box-shadow: 1px 1px 0px rgb(0 0 0 / 16%);
   width: 354px;
@@ -120,6 +121,9 @@ export const Button = styled.button`
   font-family: Antonio, sans serif;
   border-radius: 2.7rem;
   color: black;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 830px) {
     width: 300px;

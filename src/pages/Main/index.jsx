@@ -34,7 +34,7 @@ export const Main = () => {
           <TxtConsumo>
             Democratizando o <br /> consumo sustentável
           </TxtConsumo>
-          <Button>Saiba mais sobre essa iniciativa</Button>
+          <Button href="/#sobrenos">Saiba mais sobre essa iniciativa</Button>
         </Container>
       </ImgMain>
 
@@ -107,7 +107,7 @@ export const Main = () => {
           Confira as marcas que nós selecionamos para trazer a<br /> moda eco-friendly mais perto de você
         </H2Styled>
 
-        <CompaniesInfo>
+        <CompaniesInfo id="iniciativas">
           <h4>Studio eco</h4>
 
           <p>
