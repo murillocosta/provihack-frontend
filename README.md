@@ -2,6 +2,9 @@
 
 ## Projeto desenvolvido para o ProviHack do Agora.
 
+### Ser uma alternativa viável à moda ecológica e apoiar pequenas marcas sustentáveis com o objetivo de fomentar o consumo consciente de roupas. Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que é possível consumir de forma sustentável e acessível de forma tão simples quanto comprar de grandes marcas.
+
+
 ### Desenvolvido por:
 
 Murillo Costa - [Linkedin](https://www.linkedin.com/in/murillocosta/) / [Github](https://www.github.com/murillocosta/) 
@@ -21,4 +24,3 @@ HTML5, CSS3, JavaScript, React e Styled-components.
 ![image](https://user-images.githubusercontent.com/91096652/166158938-200d79a0-d96b-4158-83b3-fe017e0a499b.png)
 
 
-### Ser uma alternativa viável à moda ecológica e apoiar pequenas marcas sustentáveis com o objetivo de fomentar o consumo consciente de roupas. Queremos auxiliar as pessoas a tomarem decisões mais pensadas, e mostrar que é possível consumir de forma sustentável e acessível de forma tão simples quanto comprar de grandes marcas.
